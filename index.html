@@ -5,27 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/style.css">
   <title>Frontend Mentor | Launch countdown timer</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <section class="main-container flex">
+      <h1 class='main--heading'>WE'RE LAUNCHING SOON</h1>
+      <div class="main-timer flex">
+          <div class="timer-box">
+            <div class='timer-num' id="days">00</div>
+            <p>DAYS</p>
+          </div>
+          <div class="timer-box">
+            <div class='timer-num' id="hours">00</div>
+            <p>HOURS</p>
+          </div>
+          <div class="timer-box">
+            <div class='timer-num' id="minutes">00</div>
+            <p>MINUTES</p>
+          </div>
+          <div class="timer-box">
+            <div class='timer-num' id="seconds">00</div>
+            <p>SECONDS</p>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <ul class="footer-links flex">
+        <li><a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="pinterest.com"><ion-icon name="logo-pinterest"></ion-icon></a></li>
+        <li><a href="instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      </ul>
+    </footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/EvelinaIo" target="_blank">Evelina Ioannou</a>.
+    </div>
+  </main>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>

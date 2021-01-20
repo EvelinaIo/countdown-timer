@@ -1,0 +1,27 @@
+{
+  "name": "launch-countdown-timer-main",
+  "version": "1.0.0",
+  "description": "Countdown timer for website launch",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvelinaIo/countdown-timer.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "timer",
+    "countdown"
+  ],
+  "author": "Evelina Ioannou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvelinaIo/countdown-timer/issues"
+  },
+  "homepage": "https://github.com/EvelinaIo/countdown-timer#readme",
+  "devDependencies": {}
+}
